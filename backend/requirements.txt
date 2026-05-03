@@ -3,7 +3,7 @@ uvicorn[standard]
 sqlalchemy
 psycopg2-binary
 alembic
-pydantic
+pydantic[email]
 pydantic-settings
 python-jose[cryptography]
 passlib[bcrypt]
@@ -14,3 +14,4 @@ scikit-learn
 torch
 redis
 google-genai
+email-validator
